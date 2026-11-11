@@ -1,0 +1,272 @@
+:root {
+    --main-color: #2196f3;
+    --main-body-color: #f4f6f9;
+    --sub-color: #1787e0;
+    --banfseg: #4e4e91;
+    --main-box-shadow: 0 1px 10px 0 #d1dbeb;
+    --background-ddd: rgb(243, 242, 242);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:cairo !important;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none !important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: #EEE !important;
+    border-style: solid !important;
+    border-width: 0.1px !important;
+}
+
+tr {
+    /* box-shadow: var(--main-box-shadow); */
+
+}
+
+th,
+td {
+    text-align: center !important;
+}
+
+th {
+    font-size: 16px;
+}
+
+td {
+    box-shadow: var(--main-box-shadow);
+    font-size: 12px;
+}
+
+button {
+    border: 1px solid #aaa9a991;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #159850;
+    font-weight: bold;
+    border-radius: 8px !important;
+}
+
+button:hover {
+    background-color: #0b6334;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* small devices */
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* End small devices */
+
+
+/* Meaduim devices */
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* End Meaduim devices */
+
+
+/* Large Devices */
+@media (min-width:1200px) {
+    .container {
+        width: 930px;
+    }
+}
+
+/* Header */
+.header {
+    background-color: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: var(--main-box-shadow);
+    z-index: 10;
+}
+
+/* END Header */
+
+/* Right_sidebar */
+.Right_sidebar {
+    position: absolute;
+    background-color: #FFF;
+    top: 60px;
+    width: 243px;
+    right: 0;
+
+}
+
+.Right_sidebar span {
+    margin-left: 107px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #364d80;
+}
+
+.Right_sidebar .card {
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.Right_sidebar .card:hover {
+    background-color: #5871a7;
+    border: 1px solid #ddd;
+    color: #FFF;
+}
+
+.Right_sidebar .card:hover span {
+    color: #FFF;
+}
+
+/* END Right_sidebar */
+
+/* Left_sidebar */
+.Left_sidebar {
+    position: absolute;
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-left: 8px;
+    top: 40px;
+    left: 0;
+    width: 260px;
+}
+
+.Left_sidebar h6 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    margin-left: 10px;
+    background-color: #a789a7;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+}
+
+.Left_sidebar ul {
+    margin: 22px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+.Left_sidebar ul li {
+    margin-left: 15px;
+    margin: 10px 0;
+}
+
+.Left_sidebar ul li a {
+    padding: 5px;
+    font-weight: 500;
+    color: #505255cc;
+    margin-left: 15px;
+}.Left_sidebar ul li a i{
+    margin-right: 4px;
+}
+
+.Left_sidebar ul li a:hover {
+    background-color: #8080af;
+    color: #000000ce;
+    border-radius: 7px;
+}
+
+.Left_sidebar .booking_button a {
+    display: block;
+    width: 200px;
+    margin: 5px 10px;
+    background-color: rgb(60 60 128);
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #EEE;
+
+}
+.Left_sidebar .booking_button:first-child{
+    margin-top: 20px;
+}
+.Left_sidebar .booking_button a:hover {
+    background-color: var(--banfseg);
+    color: #FFF;
+}
+
+/* END Left_sidebar */
+
+
+/*wrapper */
+.wrapper {
+    background-color: var(--main-body-color);
+    min-height: 650px;
+    padding: 15px;
+    margin-left: 262px;
+    /* max-width: 940px; */
+}
+
+/* END wrapper */
+
+
+
+
+
+
+
+
+
+/* Before Sorting */
+i.fa.fa-arrow-down {
+    background-color: #c8d4e591;
+    padding: 10px;
+    color: #030303ab;
+    cursor: pointer;
+}
+
+button.btn.btn-success.btn-sm {
+    border-radius: 0 !important;
+    background-color: var(--banfseg) !important;
+}
+
+h6 {
+    /* text-align: center; */
+}
+
+.card .card-primary {
+    cursor: pointer;
+}
+
+.card .card-primary:hover {
+    background-color: rgb(60 60 128);
+    color: #fff;
+}
+
+span {
+    text-align: center !important;
+}
+
+/* Before Sorting */
